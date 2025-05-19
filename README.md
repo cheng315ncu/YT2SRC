@@ -63,8 +63,13 @@ YT2SRC/
 ## Usage
 
 1. Place your audio files in the `Audio/` directory.
+2. Or run below with your YT url manage in csv file or playlist url
+```bash
+python download_yt.py
+python download_ytpl.py
+```
 
-2. Run the transcription script:
+3. Run the transcription script:
 ```bash
 python 2src.py
 ```
