@@ -1,4 +1,4 @@
-# Audio2Text
+# YT2SRC
 
 A Python-based audio transcription tool that converts audio files to text using NVIDIA's Parakeet TDT 0.6B V2 model. The tool supports both CPU and MLX (Apple Silicon) versions of the model.
 
@@ -50,7 +50,7 @@ uv pip install -r requirements.txt
 ## Project Structure
 
 ```
-Audio2Text/
+YT2SRC/
 ├── Audio/              # Input audio files
 ├── Clean_Text/         # Generated clean text files
 ├── Script/            # Generated SRT subtitle files
